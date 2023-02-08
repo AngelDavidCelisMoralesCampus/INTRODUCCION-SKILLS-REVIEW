@@ -1,0 +1,182 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+}
+.body {
+   
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 
+   'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.head {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;    
+        height: 63px;
+        background: #151515b6;
+        width: 100%;       
+}
+.navbar {
+    display: flex;
+    margin-right: 100px;
+
+}
+.logo{
+    margin-left: 80px;
+    color: #fff;
+
+}
+
+.logo a {
+
+    color: #fff;
+    text-transform: uppercase; 
+    font-size: 30px;
+}
+.primera{
+    display: block;
+    background-image: url(sandbox/images/fondo-bienvenido-grande.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;   
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.title{
+    top: 45%;
+    left: 35%;
+    position: absolute;
+    color: #fff;
+}
+.title2{
+    left: 37%;
+    top: 50%;
+    position: absolute;
+    text-size-adjust:initial;
+    color: #fff;
+}
+.boton2{
+    left: 38%;
+    top: 55%;
+    position: absolute;
+    width: 200px;
+    color: #fff;
+    height: 45px;
+    background-color: rgb(255, 102, 0);
+}
+.navbar a:hover{
+    height: 23px;
+    background-color: rgb(255, 102, 0);
+}
+.navbar a {
+    text-transform: uppercase;
+    display: block;
+    padding: 23px 20px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.boton3{
+    width: 200px;
+    height: 45px;
+}
+.header1{
+    padding: 40px;
+    height: 600px;
+    text-align: center;
+    align-items:center;
+    justify-items: center;
+    
+}
+.header {
+    
+    height: 400px;
+    background-color: rgb(255, 102, 0);
+    color: #fff;
+    text-align: center;
+    justify-content: center;
+    
+}
+
+
+#taitol{
+    text-align: center;
+}
+.servicios{
+    position: relative;
+    height: 460px;
+}
+#serv1{
+    top: 80%;
+    position: absolute;
+}
+#serv2{
+    top: 65%;
+    left: 35%;
+    position: absolute;
+}
+#serv3{
+    top: 50%;
+    right: 0%;
+    position: absolute;
+}
+
+.textos{
+    text-align: center;
+}
+.proyectos{
+    position: relative;
+    color: #fff;
+    text-align: center;
+    background-color:rgb(63, 62, 62);
+    height: 450px;
+}
+.imagenes{
+    
+    display:flex;
+    width: 500px;
+    height: auto;
+}
+.uno{
+    left: 5%;
+    position: absolute;
+    width: 250px;
+}
+.dos{
+    left: 35%;
+    width: 250px;
+    position: absolute;
+}
+.tres{
+    right: 5%;
+    position: absolute;
+    width: 250px;
+}
+.cuatro{
+    top: 223px;
+    left: 5%;
+    position: absolute;
+    width: 250px;
+}
+.cinco{
+    top: 223px;
+    left: 35%;
+    position: absolute;
+    width: 250px;
+}
+.seis{
+    top: 223px;
+    right: 5%;
+    position: absolute;
+    width: 250px;
+}
+
+.pie{
+    
+    color: #fff;
+    text-align: center;
+    background-color: rgb(17, 17, 17);
+}
